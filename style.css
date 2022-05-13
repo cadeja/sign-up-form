@@ -7,7 +7,28 @@ body {
     padding: 0;
 }
 
+.page {
+    display: flex;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+}
+
 .form-element {
     display: flex;
     flex-direction: column;
 }
+
+.logo-side {
+    width: 50%;
+    height: 100%;
+}
+
