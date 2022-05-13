@@ -1,6 +1,4 @@
-* {
-    border: 1px solid red;
-}
+
 
 body {
     margin: 0;
@@ -11,8 +9,10 @@ body {
 
 .page {
     height: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    position: absolute;
 }
 
 #bg {
@@ -21,26 +21,40 @@ body {
     position: absolute;
 }
 
+.content-side {
+    background-color: rgb(249, 250, 251);
+    height: 100%;
+    width: 100%;
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    height:26px;
+    width: 100%;
+}
+
 .sign-up {
     border: 1px solid blue;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width:100%;
-}
-
-.form-column {
-    display: flex;
-    flex-direction: column;
+    justify-content: space-around;
 }
 
 .form-element {
     display: flex;
     flex-direction: column;
+    padding: 26px;
+    width:30%;
+    min-width: 200px;
 }
 
 .logo-side {
-    width: 100%;
+    width: 70%;
     height: 100%;
 }
 
