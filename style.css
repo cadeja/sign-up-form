@@ -11,12 +11,17 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+@font-face {
+    font-family: page-font;
+    src: url(assets/font/Poppins/Poppins-Regular.ttf);
+}
 
 body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
     overflow: hidden;
+    font-family: page-font;
 }
 
 .page {
@@ -79,6 +84,7 @@ input {
 }
 
 .create-account-button {
+    cursor: pointer;
     background-color: #596D48;
     color: white;
     font-weight: bold;
